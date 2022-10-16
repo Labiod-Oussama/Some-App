@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+        
+    <title>my site web</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css3/css3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css3/all.min.css">
+   
+</head>
+<body>
+<!--    
+        <div id="actor">
+            BREAKING BAD API <br>
+        </div>   -->
+    <div class="slider">
+        <div class="photos">
+          <span id="slider-number">slide 1 of 6</span>
+          <img class="one" src="images/shuffle-01.jpg" alt="01">
+          <img class="two" src="images/shuffle-02.jpg" alt="02">
+          <img class="three"  src="images/shuffle-03.jpg" alt="03">
+          <img class="four"  src="images/shuffle-04.jpg" alt="04">
+          <img class="five" src="images/shuffle-05.jpg" alt="05">
+          <img class="six" src="images/shuffle-06.jpg" alt="06">
+        </div>
+        <div class="down">
+            <button id="style">Previous</button>
+            <div class="nums">
+                <li data-number="1">1</li>
+                <li data-number="2">2</li>
+                <li data-number="3">3</li>
+                <li data-number="4">4</li>
+                <li data-number="5">5</li>
+                <li data-number="6">6</li>
+            </div>
+            <button id="style1">Next</button>
+        </div>
+    </div>
+
+        <!-- <form class="situe">
+            <div class="field-name">
+                <i class="material-icons">person</i>
+                <input type="text" placeholder="Username" required>
+                <i class="material-icons">arrow_downward</i>
+            </div>
+            <div class="field-email innective">
+                <i class="material-icons">email</i>
+                <input type="email" placeholder="Email" required>
+                <i class="material-icons">arrow_downward</i>
+            </div>
+            <div class="field-pass innective">
+                <i class="material-icons">key</i>
+                <input type="password" placeholder="Password" required>
+                <i class="material-icons">arrow_downward</i>
+            </div>
+            <div class="field-finish innective">
+                <i class="material-icons">favorite</i>
+                <p>thank you</p>
+                <i class="material-icons">favorite</i>
+            </div>
+         </form>-->
+        <section class="page-writing">
+           <div class="phrase">Hi my name is <span class="change"></span></div>
+           <div class="text">Labiod Oussama</div>
+        </section>
+       <section id="Quiz">
+            <h1>TO DO LIST</h1>
+            <div class="todo">
+                <div class="picture">
+                    <div class="refresh"><i class="material-icons">sync</i></div>
+                    <div id="date">Thursday, Mar 14</div>
+                </div>
+                <div class="container">
+                    <ul id="list">
+                        
+                    </ul>
+                    <button onclick="action(3,5)">delete all</button>
+                    <button onclick="action(4,5)">recover all</button>
+                    <div class="add-item">
+                        <i class="material-icons">control_point</i>
+                        <input type="text" placeholder="Add a to-do">
+                    </div>
+                </div>
+            </div>
+       </section>
+       <section class="quiz-page"> 
+            <div class="quiz">
+                <div class="head-quiz">
+                      <h2>Awesome Quiz Application</h2>
+                      <div class="timer">
+                          <p>Time Left</p>
+                          <div class="count">15</div>
+                      </div>
+                </div>
+                <div class="body-quiz">
+                     
+                    <div class="que-quiz">
+                         
+                    </div>
+                </div>
+                <div  class="foot-quiz">
+                    <div class="count-que"></div>
+                    <button class="next" onclick="changing()">Next Que</button>
+                </div>
+            </div>
+         <p id="number"></p> 
+       </section>
+        <section id="palindrone-page">
+            <div class="palindrone-box">
+                   <h1>Palindrome Checker</h1>
+                   <input type="text" placeholder="Enter text or number">
+                   <button>Check Palindrome</button>
+            </div>
+        </section>
+       <script src="js/java st.js"></script>
+    </body>
